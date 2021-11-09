@@ -1,0 +1,23 @@
+[package]
+name = "tmx-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bram Buurlage<brambuurlage@gmail.com>"]
+description = "Loader for Tiled map editor xml files (.tmx)"
+license = "MIT"
+readme = "readme.md"
+repository = "https://github.com/Kurble/tmx-rs"
+documentation = "https://docs.rs/tmx-rs"
+keywords = ["tiled", "tmx"]
+categories = ["game-development"]
+
+[lib]
+name = "tmx"
+
+[dependencies]
+anyhow = "1"
+image = "0.23"
+glam = "0.20"
+xml-rs = "0.8"
+libflate = "1"
+base64 = "0.13"
